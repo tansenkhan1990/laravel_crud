@@ -14,6 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/about/{name}/{age}', function ($name,$age) {
-    echo "about you $name and your age is $age";
-});
+Route::get('/about/{name}/{age}','testing@index');
