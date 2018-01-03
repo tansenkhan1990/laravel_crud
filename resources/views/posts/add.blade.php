@@ -32,6 +32,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <input type="submit" class="btn btn-default" value="Add Post" />
+                                <input type="hidden" name="_token" value="{{Session::token()}}">
                             </div>
                         </div>
                     </form>
