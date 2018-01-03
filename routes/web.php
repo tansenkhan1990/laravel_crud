@@ -14,4 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/about/{name}/{age}','testing@index');
+Route::get('/about/{name}/{age}','testing@test');
