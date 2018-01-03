@@ -10,5 +10,5 @@ use App\Post;
 class PostsController extends Controller
 {
 
-    
+
 }
